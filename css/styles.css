@@ -1,0 +1,33 @@
+.top-container {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    left:200px;
+}
+.middle-container {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    top:0;
+    left:100px;
+}
+.bottom-container {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position:fixed;
+    top:0;
+    left:0px;
+}
+.container{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+body {
+    margin: 0px;
+    text-align: center;
+}
